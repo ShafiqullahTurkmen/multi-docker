@@ -19,7 +19,7 @@ jobs:
       - run: docker push shafiqullahturkmen/multi-client 
       - run: docker push shafiqullahturkmen/multi-nginx 
       - run: docker push shafiqullahturkmen/multi-server 
-      - run: docker push shafiqullahturkmen/multi-worker 
+      - run: docker push shafiqullahturkmen/multi-worker  
     
       # - name: Generate deployment package
       #   run:  zip -r deploy.zip . -x "*.git*"
